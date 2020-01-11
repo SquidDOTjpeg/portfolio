@@ -1,0 +1,35 @@
+body, html  {
+    height: 100%
+}
+
+.bgimg1, .bgimg2, .bgimg3 {
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgimg1 {
+    background-image: url(./Assets/golden-gate.jpg);
+    min-height: 100%;
+}
+
+.bgimg2 {
+    background-image: url(./Assets/guy-on-boat.jpg);
+    min-height: 100%;
+}
+
+.bgimg3 {
+    background-image: url(./Assets/jelly.jpg);
+    min-height: 100%;
+}
+
+h1 {
+    opacity: 1;
+}
+
+.jumbotron {
+    margin-bottom: 0px !important;
+}
